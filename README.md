@@ -1,32 +1,49 @@
 # Space-Aachen
-This is a repository of the Space  Team Aachen, Project: Scorpius
+This is a repository of the Space  Team Aachen, Project: Scorpius, Software Team
 
 
-Mission
-SCORPIUS (based on the similarity from a scorpion’s tail and a robotic arm on our rover) will be the first Rover project of STA. We aim to compete in the ERC (European Rover Challenge) in Kielce, Poland, where students from all over the world participate.
-The rover itself shall be a standalone, mobile platform, weighing no more than 75 kg and be capable of operating in manual mode as well as in full-autonomous mode. Additionally, our rover will have to operate in moderate to harsh weather conditions and tough hills and terrains.
-Avionics
-Our project is divided in 3 main teams: avionics, software and structure.
-‍
-The avionics team has the task to develop all necessary electronic features of the rover. In order to achieve our mission goals, we have various subsystems whereby each plays an important role: Electrical Power System (EPS), Communication System (COM), On-Board Data Handling (OBDH) and Ground Station (GST).
-‍
-The “EPS” features a sophisticated battery protection and provides the power to all actuators and motors.
-The “COM” is responsible for sending and receiving data from the “GST”.
-The “OBDH” processes all sensor data, saves it accordingly and forwards it to the “COM”.
-The “GST” can remotely control the rover and is constantly processing data received from the rover.
-Software
-The software team has the responsibility to implement all the software components of the rover, for example: locomotion, switching between autonomous and manual modes, imaging and vision systems, communication with the ground systems, etc.
-Some of the important functions to be realized with the help of the software:
-‍
-Controlling the locomotion of the rover and the end effector of the rover, to handle objects and drilling tasks.
-Perceiving and processing imaging data from the rover imaging and vision systems.
-Enabling full autonomous as well as manual operation of the rover.
-Enabling communication of the rover with the ground systems.
-Giving display lamp output based on different modes of rover.
+Space-Aachen: Project Scorpius
+Welcome to the Space Team Aachen repository for Project Scorpius. This document provides an overview of our mission, team structure, and the key components of our project.
+
+## Mission
+SCORPIUS (named for the resemblance between a scorpion’s tail and our rover's robotic arm) marks the first rover project by STA. Our goal is to compete in the European Rover Challenge (ERC) in Kielce, Poland, alongside teams from universities worldwide.
+
+Our rover will be a standalone, mobile platform weighing under 75 kg, capable of both manual and fully autonomous operation. It will be designed to withstand moderate to harsh weather conditions and navigate challenging terrains.
+
+## Team Structure
+The project is divided into three main teams: Avionics, Software, and Mechanics.
+
+## Avionics
+The Avionics team is responsible for developing all necessary electronic features of the rover. The team is organized into several subsystems, each playing a critical role:
+
+* Electrical Power System (EPS): Features sophisticated battery protection and supplies power to all actuators and motors.
+* Communication System (COM): Manages data transmission between the rover and the Ground Station (GST).
+* On-Board Data Handling (OBDH): Processes sensor data, saves it, and forwards it to the COM.
+* Ground Station (GST): Remotely controls the rover and continuously processes data received from it.
+## Software
+The Software team implements all the software components required for the rover's operation, including:
+
+* Locomotion control
+* Mode switching between autonomous and manual
+* Imaging and vision systems
+* Communication with ground systems
+* Display lamp outputs based on different modes
+## Key functionalities:
+
+Control of rover locomotion and the end effector for handling objects and drilling tasks
+Processing imaging data from the rover's vision systems
+Enabling both autonomous and manual operations
+Facilitating communication with ground systems
 Mechanics
-The mechanical team of the rover deals with the mechanical implementation of certain operations of the rover. The team is divided into four subsystems:
-‍
-The frame subsystem has the main task of constructing the torso of the rover so that all components are connected, and the electronic units find their place. It is therefore a kind of basic framework that supports the other links of the rover.
-The locomotion subsystem is responsible for developing a system for locomotion on rough terrain so that the rover can overcome obstacles. A mechanism has to be developed to keep the rover stable on rough terrain and enable it to move forward.
-The drilling unit has the task of developing a system that can create a 30 cm deep hole and take and store soil samples from this hole. Care must be taken not to contaminate the samples.
-The main task of the manipulator system is to interface with a control panel so that the rover can operate switches, measure voltages and take samples. It is therefore the 'arm' of the rover with which it can work.
+The Mechanics team focuses on the physical construction and functionality of the rover, divided into four subsystems:
+
+Frame: Constructs the torso of the rover, ensuring all components are securely connected and the electronic units are properly housed.
+Locomotion: Develops a system for navigating rough terrain, keeping the rover stable and mobile.
+Drilling Unit: Creates a system to drill a 30 cm deep hole, collect soil samples, and ensure sample purity.
+Manipulator System: Interfaces with control panels to operate switches, measure voltages, and collect samples. This subsystem acts as the 'arm' of the rover.
+Contributing
+We welcome contributions to improve our project. Please follow our contributing guidelines for more information on how you can help.
+
+
+Contact
+For more information or inquiries, please contact us at victor.roferz@gmail.com.
